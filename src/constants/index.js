@@ -27,7 +27,6 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
     tripguide,
     datapinder,
     threejs,
@@ -51,14 +50,45 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "experience",
+      title: "Experience",
+    },
+    {
+      id: "content",
+      title: "Content",
     },
     {
       id: "contact",
       title: "Contact",
     },
   ];
+
+  export const contentVideos = [
+    {
+      title: "IA Sign Languge",
+      video: "https://youtube.com/embed/x-qX_taqT10?autoplay=0"
+    },
+    {
+      title: "IA Sign Languge",
+      video: "https://youtube.com/embed/x-qX_taqT10?autoplay=0"
+    },
+    {
+      title: "IA Sign Languge",
+      video: "https://youtube.com/embed/x-qX_taqT10?autoplay=0"
+    },
+    {
+      title: "IA Sign Languge",
+      video: "https://youtube.com/embed/x-qX_taqT10?autoplay=0"
+    },
+    {
+      title: "IA Sign Languge",
+      video: "https://youtube.com/embed/x-qX_taqT10?autoplay=0"
+    },
+    {
+      title: "IA Sign Languge",
+      video: "https://youtube.com/embed/x-qX_taqT10?autoplay=0"
+    },
+  ]
   
   const services = [
     {
@@ -171,7 +201,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Gerardo proved me wrong.",
       name: "Gelber Martinez",
       designation: "CFO",
       company: "DataPinder",
@@ -179,7 +209,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Gerardo does.",
       name: "Roberto Ancco",
       designation: "COO",
       company: "UNSA",
@@ -187,7 +217,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Gerardo optimize our website, your traffic decreased by 50%. We can't thank them enough!",
       name: "Adriel Yaseff",
       designation: "CTO",
       company: "Citesoft",

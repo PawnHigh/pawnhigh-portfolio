@@ -5,6 +5,7 @@ import { ComputersCanvas } from './canvas'
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
+      
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-4 h-4 rounded-full bg-[#e7305e]"/>
@@ -17,11 +18,13 @@ const Hero = () => {
           <div className="w-4 h-4 rounded-full bg-[#F36C8D]"/>
           <div className="w-4 h-4 rounded-full bg-[#F67595]"/>
           <div className="w-4 h-4 rounded-full bg-[#FE83A2]"/>
+          <div className="w-4 h-4 rounded-full bg-[#FE94B3]"/>
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>This is <span className='text-[#e7305e]'>PawnHigh</span> </h1>
           <p className={`${styles.heroSubText}`}>Deep learning and computer-articial vision content creator</p>
+          <p className={`text-white lg:text-[18px] sm:text-[16px] xs:text-[14px] text-[12px] mt-3`}>@ Gerardo Portocarrero Banda</p>
         </div>
       </div>
       

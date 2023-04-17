@@ -46,7 +46,6 @@ import beryllium from "./company/beryllium.png";
 import catolica from "./company/cato.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import datapinder from "./datapinder.png";
 
@@ -88,7 +87,6 @@ export {
   beryllium,
   catolica,
   carrent,
-  jobit,
   tripguide,
   datapinder,
   python,

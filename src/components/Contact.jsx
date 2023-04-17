@@ -16,8 +16,8 @@ const Contact = () => {
   const [loading, setLoading] = useState(false)
 
   const handleChange = (e) => {
-    const { name, value } = e.target
-    setForm({...form, [name]: value})
+    const { name, value } = e.target // name and value of the html input component
+    setForm({...form, [name]: value}) // [name] makes reference to the name variable
   }
 
   const handleSubmit = (e) => {
@@ -120,6 +120,7 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
       {/* End 3D Model and Stars */}
+      
     </div>
   )
 }
