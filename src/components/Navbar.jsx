@@ -162,7 +162,7 @@ const Navbar = () => {
                   </div>
 
                   {/*body*/}
-                  <div>No hay Videos por el Momento</div>
+                  <div className='p-6'>No hay Videos por el Momento</div>
                   {/* <ModalVideos /> */}
                 </div>
               </div>
