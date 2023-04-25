@@ -20,17 +20,19 @@ const Footer = () => {
         <div className="flex flex-wrap gap-10 justify-center">
             {/* Icons: https://tailwind-elements.com/docs/standard/components/social-buttons/ */}
             {social.map((social, index) => (
-                <svg
-                    key={index}
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-7 w-7"
-                    fill="currentColor"
-                    style={{color: `${social.color}`}}
-                    viewBox="0 0 24 24">
-                    <path
-                        d={`${social.path}`}
-                    />
-                </svg>                    
+                <a href={`${social.link}`} target='_blank'>
+                    <svg
+                        key={index}
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-7 w-7"
+                        fill="currentColor"
+                        style={{color: `${social.color}`}}
+                        viewBox="0 0 24 24">
+                        <path
+                            d={`${social.path}`}
+                        />
+                    </svg>                
+                </a>                
             ))}
         </div>
     </>

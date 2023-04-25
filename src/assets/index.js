@@ -45,9 +45,8 @@ import tesla from "./company/tesla.png";
 import beryllium from "./company/beryllium.png";
 import catolica from "./company/cato.png";
 
-import carrent from "./carrent.png";
-import tripguide from "./tripguide.png";
 import datapinder from "./datapinder.png";
+import manualmanager from "./manualmanager.png";
 
 import gelber from "./testimonial/gelber.png";
 import adriel from "./testimonial/adriel.png";
@@ -86,9 +85,8 @@ export {
   tesla,
   beryllium,
   catolica,
-  carrent,
-  tripguide,
   datapinder,
+  manualmanager,
   python,
   tensorflow,
   django,

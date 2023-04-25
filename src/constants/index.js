@@ -26,9 +26,8 @@ import {
     catolica,
     tesla,
     shopify,
-    carrent,
-    tripguide,
     datapinder,
+    manualmanager,
     threejs,
     python,
     tensorflow,
@@ -229,7 +228,7 @@ import {
     {
       name: "DataPinder",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, publish, and manage their own datasets, providing essential and crucial information for any market or scientific need.",
       tags: [
         {
           name: "django",
@@ -247,6 +246,27 @@ import {
       image: datapinder,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "ManualManager",
+      description:
+        "Web-based platform that allows scientifics to manage web and documented manuals about citesoft lab instruments. Allowing new members as assistants or researchers to get involved in the environment",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: manualmanager,
+      source_code_link: "https://github.com/",
+    },
   ];
 
   const social = [
@@ -254,11 +274,13 @@ import {
       name: "linkedin",
       color: "#0077b5",
       path: "M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z",
+      link: "https://www.linkedin.com/in/gerardo-portocarrero-banda-8182161b2/",
     },
     {
       name: "youtube",
       color: "#ff0000",
       path: "M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z",
+      link: "https://www.youtube.com/channel/UC7fm-C1DHFtPbpBizDXU-hw",
     },
   ]
   
