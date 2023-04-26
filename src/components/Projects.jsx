@@ -17,7 +17,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450
         }}
-        className="bg-quaternary p-4 rounded-2xl sm:w-[380px] w-full"
+        className="bg-quaternary p-4 rounded-2xl sm:w-[360px] w-full"
       >
         {/* Image work and Github Logo */}
         <div className="relative w-full h-[230px]">

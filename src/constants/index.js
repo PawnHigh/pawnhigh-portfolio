@@ -28,6 +28,7 @@ import {
     shopify,
     datapinder,
     manualmanager,
+    flowaterin,
     threejs,
     python,
     tensorflow,
@@ -226,7 +227,7 @@ import {
   
   const projects = [
     {
-      name: "DataPinder",
+      name: "Data Pinder",
       description:
         "Web-based platform that allows users to search, publish, and manage their own datasets, providing essential and crucial information for any market or scientific need.",
       tags: [
@@ -247,7 +248,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "ManualManager",
+      name: "Citesoft Manual Manager",
       description:
         "Web-based platform that allows scientifics to manage web and documented manuals about citesoft lab instruments. Allowing new members as assistants or researchers to get involved in the environment",
       tags: [
@@ -266,6 +267,27 @@ import {
       ],
       image: manualmanager,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Flowaterin",
+      description:
+        "Web-based platform that allows plant irrigation management, through plants creation and elimination. Allowing users to control the state of irrigations, knowing the exact date of the last irrigation.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: flowaterin,
+      source_code_link: "https://github.com/GerardoUnsa/gestion-riego-plantas",
     },
   ];
 

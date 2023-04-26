@@ -47,6 +47,7 @@ import catolica from "./company/cato.png";
 
 import datapinder from "./datapinder.png";
 import manualmanager from "./manualmanager.png";
+import flowaterin from "./flowaterin.png";
 
 import gelber from "./testimonial/gelber.png";
 import adriel from "./testimonial/adriel.png";
@@ -87,6 +88,7 @@ export {
   catolica,
   datapinder,
   manualmanager,
+  flowaterin,
   python,
   tensorflow,
   django,
