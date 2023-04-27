@@ -78,6 +78,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}> {/* fallback important in case the model is not rendering */}
         <OrbitControls
+          autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}

@@ -20,7 +20,7 @@ const App = () => {
           <Footer/>
           {/* <StarsCanvas/> */}
         </div>
-        <StarsCanvas/>
+        {/* <StarsCanvas/> */}
       </div>
     </BrowserRouter>
   )
