@@ -1,8 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     backendService,
     pythonService,
     aiService,
@@ -96,7 +92,7 @@ import {
       icon: pythonService,
     },
     {
-      title: "AI scientific",
+      title: "Data Scientist",
       icon: aiService,
     },
     {
@@ -147,12 +143,16 @@ import {
       icon: postgres,
     },
     {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Javascript",
+      icon: javascript,
     },
     {
       name: "React JS",
@@ -217,7 +217,7 @@ import {
     },
     {
       testimonial:
-        "After Gerardo optimize our website, your traffic decreased by 50%. We can't thank them enough!",
+        "After Gerardo advised us, our researches and projects couldn't be more active. We can't thank them enough!",
       name: "Adriel Yaseff",
       designation: "CTO",
       company: "Citesoft",
@@ -229,7 +229,7 @@ import {
     {
       name: "Data Pinder",
       description:
-        "Web-based platform that allows users to search, publish, and manage their own datasets, providing essential and crucial information for any market or scientific need.",
+        "Web-based platform that allows users to search, publish, earn pasive income and manage your own datasets, providing essential and crucial information for any market, personal purposes or scientific need.",
       tags: [
         {
           name: "django",
