@@ -176,11 +176,11 @@ import {
       iconBg: "#FEFEFE",
       date: "April 2022 - August 2022",
       points: [
-        "Implementation of a service monitoring system and ensuring cross-server communication through sockets.",
-        "Developing and maintaining web-applications and end-points using Django and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, frontend developers and others to create high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        "Manage server crontab and server services manager (systemctl, supervisor), handling security ssh credentials and implement bash scripts into a ubuntu terminal environment.",
+        "I achieved the implementation of a service monitoring system and ensuring cross-server communication through sockets.",
+        "I was in charge of developing and maintaining web-applications and end-points using Django and other related technologies.",
+        "I collaborated with cross-functional full teams including designers, product managers, frontend developers and others to create high-quality products.",
+        "I participated in code and project reviews, providing constructive feedback to other developers and final users.",
+        "I took over the server crontab and server services manager (systemctl, supervisor), handling security ssh credentials and implementing bash scripts into a ubuntu environment.",
       ],
     },
     { /* https://www.prospects.ac.uk/job-profiles/machine-learning-engineer */
@@ -190,10 +190,10 @@ import {
       iconBg: "#02B967",
       date: "July 2022 - Present",
       points: [
-        "Build algorithms based on statistical modelling procedures to build and maintain scalable solutions to achieve the finest alpaca fiber quality.",
-        "Use data modelling and evaluation strategy to find patterns and predict unseen instances about alpaca fiber characteristics.",
-        "Understand and apply computer science fundamentals, algorithms, complexity to analyse large, complex datasets to extract insights and decide on the appropriate technique.",
-        "Liaise with stakeholders to analyse business problems, clarify requirements and define the scope of the resolution needed.",
+        "I built algorithms based on statistical modelling procedures and project requirements to maintain scalable solutions, achieving high recognition rates on test and validation data.",
+        "I applied data modelling and strategic evaluation to find patterns and predict implicit instances about qualitative and quantitative data characteristics.",
+        "I understood and employed computer science fundamentals, developed AI algorithms and analyze complexity to process large and robust datasets to extract singular properties, determining the most appropriate technique.",
+        "I liaised with stakeholders to analyse business problems, clarify requirements and define the scope of the resolution needed.",
       ],
     },
   ];
