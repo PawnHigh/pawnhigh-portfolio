@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face { /* https://dev.to/ziqinyeow/how-to-add-custom-font-file-to-your-react-app-31kb */
+  font-family: "DataPinder";   /*Can be any text*/
+  src: local("Datapinder-Regular"),
+    url("./font/Datapinder-Regular.ttf") format("truetype");
+}
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +13,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Datapinder", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
 }
