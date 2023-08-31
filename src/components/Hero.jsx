@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>This is <span className='text-[#e7305e]'>PawnHigh</span> </h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>This is <span className='text-[#e7305e]'>Gerardo</span> </h1>
           <p className={`${styles.heroSubText}`}>Deep learning and computer-articial vision content creator</p>          
         </div>
       </div>

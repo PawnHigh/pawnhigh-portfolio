@@ -45,7 +45,7 @@ const Computers = ({ isMobile }) => {
         //position={[0, -4.2, -0.6]} // robot_playground
         //rotation={[0.4, 1.6, -0.2]} // robot_playground
 
-        scale={isMobile ? 0.007 : 0.010} // communication_bot
+        scale={isMobile ? 0.007 : 0.008} // communication_bot
         position={[0, -2.6, 0]} // communication_bot
         rotation={[-0.1, -0.9, 0.1]} // communication_bot
       />
